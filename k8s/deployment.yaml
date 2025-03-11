@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: vote
-        image: 205930645143.dkr.ecr.eu-north-1.amazonaws.com/vote:latest
+        image: my-node-app:latest
         ports:
         - containerPort: 80
