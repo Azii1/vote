@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: vote
-        image: flask-app:latest
+        image: azii1/vote:latest
         ports:
         - containerPort: 80
